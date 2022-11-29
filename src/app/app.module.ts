@@ -17,8 +17,10 @@ import { SelectingComponent } from './pages/selecting/selecting.component';
 import { HiringComponent } from './pages/hiring/hiring.component';
 import { OnboardingComponent } from './pages/onboarding/onboarding.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FormComponent } from './pages/form/form.component';
+import { NgbModule, ModalDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { FormComponent } from './pages/form/form.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
