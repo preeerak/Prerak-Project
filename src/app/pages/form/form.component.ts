@@ -1,5 +1,5 @@
 import { Component, Output } from '@angular/core';
-import { Validators, FormBuilder} from '@angular/forms';
+import { Validators, FormBuilder, FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-form',
