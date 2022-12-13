@@ -8,6 +8,9 @@ import { Component } from '@angular/core';
 })
 
 export class PreparingComponent{
+open(arg0: any) {
+throw new Error('Method not implemented.');
+}
 
   constructor() {} 
   
